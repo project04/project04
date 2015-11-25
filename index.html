@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Harry McKinney's Project 4 web analytics & demographics software and extensions - The Best Marketing Tool for Online Businesses">
+    <title>Project 4 Analytics & Demographics</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/foundation.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+
+    <!-- SMOOTH SCROLL -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <!-- End of SMOOTH SCROLL -->
+
+    <script>
+        var message = "function disabled";
+
+        function rtclickcheck(keyp) {
+            if (navigator.appName == "Netscape" && keyp.which == 3) {
+                alert(message);
+                return false;
+            }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+        document.onmousedown = rtclickcheck;
+    </script>
+
+</head>
+
+<body>
+    <div id="start_top">
+        <div class="row">
+            <div class="large-3 columns">
+                <h1><img src="img/project4_logo.png" alt="project 4 logo" title="Project 4's logo"></h1>
+            </div>
+            <div class="large-9 columns">
+                <ul class="button-group right">
+                    <li><a href="./downloads.html" class="button">Download</a>
+                    </li>
+                    <li><a href="#v1" class="button">4.0.v1.traffic</a>
+                    </li>
+                    <li><a href="#v2" class="button">4.0.v2.traffic</a>
+                    </li>
+                    <li><a href="#v3" class="button">4.0.v3.traffic</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <img src="img/project4_header.png" alt="Project 4 main picture" title="Project 4 is a Leading Website Analytics, Data and Demographic Analysis Software Suite featuring the .traffic software series.">
+
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-4 columns">
+            <img src="img/project4_2.png" alt="Beta Logo for .traffic software" title="Beta Logo for 4.0.v1.v2.v3.traffic software series">
+        </div>
+        <div class="large-8 columns">
+            <h4>Project4's .traffic series</h4>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>is designed to simplify your website and data analytics experience, after years of working on major site analytics programs we have designed our very own custom software to take the guess work out of your site traffic reporting. </p>
+                </div>
+                <div class="large-6 columns">
+                    <p>So what does this software do that other software doesn't? Simple. It actually runs your site statistics against large international databases to produce the exact information that your business or blog needs to grow. Our .traffic series software uses GeoIP functions and cross references that information against an array of databases to give you precise feedback on your website visitor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-8 columns">
+            <h4>Why is this extra data important?</h4>
+
+            <p>The data that the .traffic software series produces is vitally important to your mission (regardless of what it is) because it produces a data model that you can rely on to make important decisions. For example one site in our beta study found that the majority of it's visitors were from a certain area over 2,000 miles from where they had been advertising.</p>
+
+            <p>Data like that is Earth shattering to a company that has a 2,3 or 5 year plan in motion to saturate a market. In another instance we found that a medical company's website was being accessed by another part of the world - an area that had never been previously tested for the illness that they treat. This data led them to go to their customers, to be proactive and to make a difference when a difference needed to be made.</p>
+
+        </div>
+        <div class="large-4 columns">
+            <img src="img/project_3x3.png" alt="Package Logo for 4.0.v1.v2.v3.traffic software series" title="logo for 4.0.v1.traffic, 4.0.v2.traffic, 4.0.v3.traffic software versions">
+        </div>
+    </div>
+
+    <!--code added 11-06-2014-->
+    <div id="v1">
+        <div class="row">
+            <div class="large-12 columns">
+                <hr/>
+                <h4>4.0.v1.traffic</h4>
+                <p>Version 1 of the .traffic software series is important because it's the 1st step to Supercharging your sites Analytics.</p>
+                <p>This version contains the extension that produces the extra data that the application runs against the major databases. Version 1 is the foundation of the software application. If you are an independent developer this may be the only version that you will want (and that is why this software is split into 3 layers). Version 1 will install the GeoIP trace onto your site using a Php code block. It's this base generated data that is manipulated and evaluated to create the reports that are used in Version 2 & Version 3.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="v2">
+        <div class="row">
+            <div class="large-12 columns">
+                <hr/>
+                <h4>4.0.v2.traffic</h4>
+                <p>Version 2 of the .traffic software series the second layer in a 3 layer application. It merges the data collected from Version 1 into a custom MySQL database (We can set this database up for you or you can use your own).</p>
+                <p>Version 2 is the organization layer of the software application. It's in this layer that the information from your website is stored in a format that it can be evaluated against major national and international data warehouses. This is the layer that needs to be managed by your database administrator (or Project 4). This layer is offered as an independent unit so developers can use this format to store and organize any other information that they may need for their own projects.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="v3">
+        <div class="row">
+            <div class="large-12 columns">
+                <hr/>
+                <h4>4.0.v3.traffic</h4>
+                <p>Version 3 of the .traffic software series is the vital 3rd layer of the application. This layer is available for download (free of charge), but access to the Project 4 Database exchange does require a purchase.</p>
+                <p>Version 3 contains unlimited access to national and international analytics and demographics databases. This access comes at a cost (and that's why a purchase is required). Version 3 is split into it's own layer for this reason. This layer can also be run independently to cross reference other data (as long as it is in the format of layer 2).</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="donate">
+        <div class="row">
+            <div class="large-12 columns">
+                <hr/>
+                <h4>Donate to the cause</h4>
+                <p>Will you help Project 4's mission?</p>
+                <p>We are currently accepting donations through Bitcoin (BTC) Your Donation is Appreciated! Please send currency through Bitcoin to: <mark>18pcvCDPL16p1mdWDtyebjTqYYgyhbcMyu</mark></p>
+                <p>If you don't have a Bitcoin account we recommend coinbase, you can access them by clicking <a href="http://www.coinbase.com"> here </a> Thank you for your donation!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns">
+            <hr/>
+            <h4>Software Licenses for 4.0.v1.traffic, 4.0.v2.traffic and 4.0.v3.traffic</h4>
+            <p>The MIT License (MIT)</p>
+            <p>Copyright (c) 2010-<script>document.write(new Date().getFullYear())</script> Harry McKinney dba Project 4</p>
+            <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+            <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+            <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+        </div>
+    </div>
+    <!--end of 11-06-2014 code block-->
+
+    <footer class="row">
+        <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>&copy; 2010-<script>document.write(new Date().getFullYear())</script> Project4</p>
+                    <!--Project4, 4.0.v1.traffic, 4.0.v2.traffic, 4.0.v3.traffic are all legally owned software products of Harry McKinney-->
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><a href="http://www.4point0designs.com/index.php">4.0 Designs</a>
+                        </li>
+                        <li><a href="sitemap.xml">xml sitemap</a>
+                        </li>
+                        <li><a href="#donate">donate</a>
+                        </li>
+                        <li><a href="#start_top">back to top</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
