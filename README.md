@@ -1,4 +1,4 @@
-#### project04
+#### project 4 simple analytics software -- by: Harry McKinney
 ___
 >repo for the webpage project4.io (legacy page);
 
